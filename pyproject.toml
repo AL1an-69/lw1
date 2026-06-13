@@ -1,7 +1,10 @@
 [project]
-name = "lw1"
+name = "levenshtein-project"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+description = "Сравнение методов вычисления расстояния Левенштейна"
+requires-python = ">=3.10"
+dependencies = [
+    "fuzzywuzzy>=0.18.0",
+    "python-docx>=1.1.0",
+    "python-levenshtein>=0.25.0",
+]
